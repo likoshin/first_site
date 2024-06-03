@@ -1,4 +1,82 @@
-.container{
-    display: flex;
+.headback {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.container {
     width: 100%;
+    margin: 0 auto;
+}
+
+.top_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.head_email address {
+    font-style: normal;
+    font-size: 16px;
+    color: #333;
+}
+
+.car_main {
+    display: flex;
+    align-items: center;
+}
+
+.car_main img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.Family {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+}
+
+.social_icon a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.header_social img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.header_social:hover img {
+    transform: scale(1.2);
+}
+
+.header_nav {
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+.header_menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header_menu li {
+    margin: 0 15px;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu_link:hover {
+    color: #ffc107;
 }
