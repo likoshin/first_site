@@ -202,3 +202,8 @@
 .button-container button:hover {
     background-color: #0056b3;
 }
+.info_container{
+    display: grid;    
+    height: 100%;
+}
+
