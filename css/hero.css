@@ -175,12 +175,13 @@
     cursor: pointer;  
 }
 .button-container {
-    max-width: 1200px;
+    max-width: auto;
     display: grid;
     margin: auto;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    height: 200px;    
+    height: 300px;
+    width: 100vh;    
 }
 
 .button-container button {    
@@ -203,7 +204,29 @@
     background-color: #0056b3;
 }
 .info_container{
-    display: grid;    
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;    
 }
-
+@media screen and (max-width: 768px) {
+    .button-container {
+        grid-template-columns: 1fr; 
+        height: auto; 
+        width: 80%; 
+    }
+}
+@media screen and (max-width: 480px) {
+    .ford_modal, .camaro_modal, .mers_modal, .volvo_modal {
+        max-width: 90%;
+        padding: 30px; 
+    }
+    .button-container {
+        width: 90%; 
+    }
+}
+@media screen and (max-width: 320px) {
+    .ford_modal, .camaro_modal, .mers_modal, .volvo_modal {
+        padding: 20px; 
+    }
+}
