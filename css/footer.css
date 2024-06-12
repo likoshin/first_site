@@ -1,0 +1,13 @@
+.footerback{
+    background-color: #f8f4f4;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer_info {
+    color: #6c757d; 
+    font-size: 14px;
+    margin: 0; 
+}
